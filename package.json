@@ -1,7 +1,6 @@
 {
   "name": "flashbot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "@discordjs/opus": "^0.5.3",
@@ -21,5 +20,14 @@
     "dev": "nodemon index"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srinjoyray/FlashBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srinjoyray/FlashBot/issues"
+  },
+  "homepage": "https://github.com/srinjoyray/FlashBot#readme",
+  "description": ""
 }
