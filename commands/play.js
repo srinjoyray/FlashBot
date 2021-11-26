@@ -6,7 +6,7 @@ const queue = new Map();
 
 module.exports = {
     name : "play" ,
-    aliases : ["skip", "stop"],
+    aliases : ["p","skip", "stop"],
     description : "Music Bot",
     async execute(client,message,cmd,args,Discord){
 
@@ -17,7 +17,7 @@ module.exports = {
         
         const serverQueue = queue.get(message.guild.id);
 
-        if(cmd === 'play'){
+        if(cmd === 'play' || cmd=='p'){
             if (!args.length) return message.reply("You must add something to play");
 
             let song = {};

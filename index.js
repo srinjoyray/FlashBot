@@ -15,3 +15,4 @@ client.events = new Discord.Collection();
 })
 
 client.login(process.env.BOT_TOKEN);
+
